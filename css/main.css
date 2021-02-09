@@ -16,7 +16,6 @@
 
 body{
     background: hsl(185, 75%, 39%);
-    text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -55,18 +54,26 @@ hr{
 
 .pattern-2{
     left: 50%;
-    transform: translateY(40%);    
+    transform: translateY(50%);    
 }
 
 /* Card Container */
 
+.container{
+    min-height: 100vh;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
 .card{
+    text-align: center;
     background-color: #fff;
     border-radius: 5%;
     display: inline-block;
-    transform: translateY(50%);
     box-shadow: 0 10px 20px hsl(227, 10%, 46%);
     overflow: hidden;
+    z-index: 1;
 }
 /* Profile Image */
 
